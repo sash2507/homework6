@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	
 	//Animates the div my-element by reducing opacity 30% over 1000ms
 	$(".my-element").animate(
 	{opacity: 0.70}, 1000);	
@@ -8,8 +9,8 @@ $(document).ready(function(){
 	function(){
 	alert("Welcome to Artsy!");
 	})
-
-	//Changes color of h3 tags to blue on toggle
+	
+	//Changes color of h3 tags to purple on toggle
 	$("h4").toggle(
     function(){$("h3").css({color: "purple"});
 	})
@@ -32,10 +33,9 @@ $(document).ready(function(){
         $(".literature").fadeTo("fast", 0.75);
     })
     //Returns opacity to normal when mouse exits div 'literature'
-    $("literature").mouseleave(function() {
+    $(".literature").mouseleave(function() {
 	  	$(".literature").fadeTo("fast", 1);
 	  })
-
 })
 
 

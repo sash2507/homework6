@@ -1,0 +1,46 @@
+<style>
+		body {}
+		.images {
+			padding-left: 100px;
+			padding-right: 90px;
+			padding-bottom: 25px;
+		}
+		h1 {
+			font-size: 80px;
+			text-align: center;
+		}
+		h4 {
+			text-align: center;
+			padding-bottom: 40px;
+		}
+		.my-element {
+			background-color: orange;
+			height: 10%;
+			width: 100%;
+		}
+		.menu {
+			width: 1386px;
+			border: 15px solid lightpink;
+		}
+		
+		.art, .literature, .culture {
+			float: left;
+			width: 180px;
+			margin-left: 160px;
+			border: 20px solid white;
+			padding: 20px;
+			background-color: #CC3399;
+			text-align: justify;
+		}
+		.facebook, .twitter {
+			padding-top: 320px;
+			position: absolute;
+	
+			}
+		.twitter {
+			padding-left: 50px;
+		}
+		.facebook {
+			padding-left: 5px;
+		}
+</style>
